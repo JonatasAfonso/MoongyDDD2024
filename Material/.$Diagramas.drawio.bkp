@@ -1,0 +1,90 @@
+<mxfile host="Electron" modified="2024-11-20T20:57:28.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="V0uncJF8dnj2bC6ZL9gd" version="21.2.8" type="device">
+  <diagram name="Page-1" id="SeFd0a8EglRcwTorIlmE">
+    <mxGraphModel dx="1695" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="36VNDFRPsifxfloHVbb3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-1" target="36VNDFRPsifxfloHVbb3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-1" value="Carro / Smartphone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-2" target="36VNDFRPsifxfloHVbb3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-2" target="36VNDFRPsifxfloHVbb3-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="190" />
+              <mxPoint x="670" y="210" />
+              <mxPoint x="710" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-2" target="36VNDFRPsifxfloHVbb3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-2" value="MessageBroker&lt;br&gt;(RabbitMQ, Kafka, Azure EventHub ...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-4" value="SmartPhone Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-5" value="Controler Uber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-6" value="App ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-14" value="POST" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-12" target="36VNDFRPsifxfloHVbb3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-12" value="Millenium" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.925;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-13" target="36VNDFRPsifxfloHVbb3-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="450" />
+              <mxPoint x="281" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-13" value="Santander" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.853;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-16" target="36VNDFRPsifxfloHVbb3-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-16" value="iPhone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="620" width="100" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-17" value="Servidores do banco" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="550" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="36VNDFRPsifxfloHVbb3-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.019;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="36VNDFRPsifxfloHVbb3-16" target="36VNDFRPsifxfloHVbb3-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="510" as="sourcePoint" />
+            <mxPoint x="610" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
