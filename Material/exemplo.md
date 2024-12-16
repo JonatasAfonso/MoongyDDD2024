@@ -1,5 +1,3 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jonatasafonso_company-documentprocessor&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=jonatasafonso_company-documentprocessor)
-
 # Introduction 
 
 Introducing our streamlined PDF generation process, where raw data meets precision engineering. Seamlessly transforming diverse payloads into polished PDF documents, this process combines efficiency with creativity. Harnessing cutting-edge technology, it ensures flawless formatting, cohesive designs, and data accuracy. From complex reports to elegant presentations, our process crafts visually captivating PDFs tailored to your unique needs. Experience the power of digital transformation, where information evolves into impactful documents at your fingertips.
