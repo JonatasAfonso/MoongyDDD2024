@@ -135,3 +135,7 @@ No padrão de **arquitetura orientada a eventos**, os sistemas reagem a eventos 
 ---
 
 Esses padrões, quando usados em conjunto, criam um e-commerce escalável, modular e resiliente.
+
+
+
+![alt text](Diagramas-ArquiteturasQueSuportamDDD.drawio-1.png)
