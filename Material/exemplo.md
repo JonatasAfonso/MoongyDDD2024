@@ -64,8 +64,6 @@ TODO: Describe the components in DEV/SIT environment
 
 
 
-
-
 ## Monitoring
 
 TODO: Describe how to monitor these resources
@@ -125,18 +123,3 @@ param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
  AJ Company, 2023
  All rights reserved
 
-
- CompanyDocumentProcessorApp
- ClientId: 61b4bdcd-5aed-4f32-ac6c-696140e2e7bb
- TenantId: 28969962-74a2-47c4-92c2-096a6f8a0a44
- appkey1: gL18Q~8DNN-aQXw2P.Gf_KH3904LIEBKhORrUarY
-
-
-
-```mermaid
-
-pie title NETFLIX
-         "Time spent looking for movie" : 90
-         "Time spent watching it" : 10
-
-```	         
