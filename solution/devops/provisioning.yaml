@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables: 
-  ServiceConnectionName: 'Visual Studio Enterprise (11fa2903-f5d9-4f4e-85a4-29dae41cb838)'
+  ServiceConnectionName: 'Visual Studio Enterprise (12345678-1234-1234-1234-123456789012)'
   ResourceGroupName: 'ECommerce_RG'
   Location: 'eastus'
 
