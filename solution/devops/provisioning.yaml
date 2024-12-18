@@ -1,0 +1,48 @@
+name: Provision Resources in Azure
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables: 
+  ServiceConnectionName: 'Visual Studio Enterprise (12345678-1234-1234-1234-123456789012)'
+  ResourceGroupName: 'ECommerce_RG'
+  Location: 'eastus'
+
+jobs:
+- job:
+  steps:  
+  - task: AzureCLI@2
+    displayName: 'Create Resource Group'
+    inputs:
+      azureSubscription: $(ServiceConnectionName)
+      scriptType: 'bash'
+      scriptLocation: 'inlineScript'
+      inlineScript: |
+        az upgrade
+
+  - task: AzureCLI@2
+    displayName: 'Create Resource Group'
+    inputs:
+      azureSubscription: $(ServiceConnectionName)
+      scriptType: 'bash'
+      scriptLocation: 'inlineScript'
+      inlineScript: |
+        az group create --name $(ResourceGroupName) --location $(Location)
+
+  - task: AzureCLI@2
+    displayName: 'Create Resources'
+    inputs:
+      azureSubscription: $(ServiceConnectionName)
+      scriptType: 'bash'
+      scriptLocation: 'inlineScript'
+      inlineScript: |
+        az deployment group create \
+          --name $(Build.BuildNumber) \
+          --resource-group $(ResourceGroupName) \
+          --template-file bicep/provisioning.bicep
